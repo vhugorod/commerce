@@ -97,7 +97,7 @@ export default function Search({
           <ul>
             <li className="py-1 text-base font-bold tracking-wide">
               <Link href={{ pathname: getDesignerPath('', category), query }}>
-                <a>All Designers</a>
+                <a>All Developers</a>
               </Link>
             </li>
             {brands.flatMap(({ node }) => (
