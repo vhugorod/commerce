@@ -131,7 +131,7 @@ export default function Cart() {
                 </Button>
               ) : (
                 <Button href="/checkout" Component="a" width="100%">
-                  Proceed to Checkout
+                  Proceed to Checkout now
                 </Button>
               )}
             </div>
