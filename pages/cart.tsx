@@ -110,7 +110,7 @@ export default function Cart() {
                 <span>{subTotal}</span>
               </li>
               <li className="flex justify-between py-1">
-                <span>Taxes</span>
+                <span>All taxes</span>
                 <span>Calculated at checkout</span>
               </li>
               <li className="flex justify-between py-1">
@@ -119,7 +119,7 @@ export default function Cart() {
               </li>
             </ul>
             <div className="flex justify-between border-t border-accents-2 py-3 font-bold mb-10">
-              <span>Total</span>
+              <span>Total cart</span>
               <span>{total}</span>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function Cart() {
             <div className="w-full lg:w-72">
               {isEmpty ? (
                 <Button href="/" Component="a" width="100%">
-                  Continue Shopping
+                  Continue Shopping now
                 </Button>
               ) : (
                 <Button href="/checkout" Component="a" width="100%">
